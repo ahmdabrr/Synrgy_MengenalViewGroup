@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RelativeLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnNext4"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="87dp"
+        android:text="NEXT"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tvPerson1"
+        android:layout_width="227dp"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="498dp"
+        android:gravity="center"
+        android:text="Hello, I am Andro"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imgAndro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+</RelativeLayout>
